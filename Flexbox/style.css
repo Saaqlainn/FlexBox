@@ -1,0 +1,86 @@
+.container{
+    
+    border: 2px solid black;   
+    width: 100%;
+    height: auto;
+    /* flex-direction: column; */
+    /* justify-content: stretch; */
+    /* justify-content: space-between; */
+}
+.track{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(163, 19, 163);
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid red;
+    border-radius: 7px;
+    /* justify-content: space-between;   */
+}
+
+.element{
+    background-color: rgb(233, 233, 34);
+    color: black;
+    height: 15px;
+    width: 40px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#track-1{
+    justify-content: space-around;
+}
+#track-2{
+    justify-content: space-between;
+}
+#track-3{
+    justify-content: space-around;
+}
+#track-4{
+    justify-content: space-evenly;
+}
+#track-5{
+    justify-content: center;
+}
+#track-6{
+    justify-content: flex-end;
+}
+#track-7{
+    justify-content: flex-start;
+}
+#track-8 #element-1{
+    flex-grow: 3;
+}
+
+#track-8  #element-2{
+    flex-grow: 3;
+}
+
+#track-8  #element-3{
+    flex-grow: 3;
+}
+/* -------------------------------flex proprties for items--------------------- */
+#track-9{
+    
+    height: 60px;
+    align-items: flex-start;
+}
+#track-10{
+    height: 60px;
+    align-items: flex-end;
+    
+}
+#track-11{
+    height: 60px;
+    align-items: center;
+    
+}
+#track-12{
+    height: 60px;
+    align-items: stretch;
+}
+
+
+
